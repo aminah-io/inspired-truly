@@ -40,11 +40,12 @@ export const IndexPageTemplate = ({
           className="has-text-weight-bold is-size-3-mobile is-size-2-tablet is-size-1-widescreen"
           style={{
             boxShadow:
-              'rgb(255, 68, 0) 0.5rem 0px 0px, rgb(255, 68, 0) -0.5rem 0px 0px',
-            backgroundColor: 'rgb(255, 68, 0)',
+              'rgb(62, 126, 105) 0.5rem 0px 0px, rgb(62, 126, 105) -0.5rem 0px 0px',
+            backgroundColor: 'rgb(62, 126, 105)',
             color: 'white',
             lineHeight: '1',
             padding: '0.25em',
+            textAlign: 'center',
           }}
         >
           {title}
@@ -53,11 +54,12 @@ export const IndexPageTemplate = ({
           className="has-text-weight-bold is-size-5-mobile is-size-5-tablet is-size-4-widescreen"
           style={{
             boxShadow:
-              'rgb(255, 68, 0) 0.5rem 0px 0px, rgb(255, 68, 0) -0.5rem 0px 0px',
-            backgroundColor: 'rgb(255, 68, 0)',
+              'rgb(62, 126, 105) 0.5rem 0px 0px, rgb(62, 126, 105) -0.5rem 0px 0px',
+            backgroundColor: 'rgb(62, 126, 105)',
             color: 'white',
             lineHeight: '1',
             padding: '0.25em',
+            textAlign: 'center',
           }}
         >
           {subheading}
@@ -80,7 +82,8 @@ export const IndexPageTemplate = ({
                 </div>
                 <div className="columns">
                   <div className="column is-12">
-                    <h3 className="has-text-weight-semibold is-size-2">
+                    <h3 className="has-text-weight-semibold is-size-2"
+                    style={{textAlign: 'center'}}>
                       {heading}
                     </h3>
                     <p>{description}</p>
@@ -95,7 +98,7 @@ export const IndexPageTemplate = ({
                   </div>
                 </div>
                 <div className="column is-12">
-                  <h3 className="has-text-weight-semibold is-size-2">
+                  <h3 className="has-text-weight-semibold is-size-2" style={{textAlign: 'center'}}>
                     Latest stories
                   </h3>
                   <BlogRoll />
